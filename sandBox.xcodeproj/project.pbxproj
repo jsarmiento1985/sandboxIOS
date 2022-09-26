@@ -14,6 +14,7 @@
 		1A47CCBF28DE1F410040AAC1 /* sandBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47CCBE28DE1F410040AAC1 /* sandBoxTests.swift */; };
 		1A47CCC928DE1F410040AAC1 /* sandBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47CCC828DE1F410040AAC1 /* sandBoxUITests.swift */; };
 		1A47CCCB28DE1F410040AAC1 /* sandBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47CCCA28DE1F410040AAC1 /* sandBoxUITestsLaunchTests.swift */; };
+		1AA7F76428E25EDE009F09C7 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7F76328E25EDE009F09C7 /* Exercises.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1A47CCC428DE1F410040AAC1 /* sandBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sandBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A47CCC828DE1F410040AAC1 /* sandBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandBoxUITests.swift; sourceTree = "<group>"; };
 		1A47CCCA28DE1F410040AAC1 /* sandBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AA7F76328E25EDE009F09C7 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		1A47CCAC28DE1F3F0040AAC1 /* sandBox */ = {
 			isa = PBXGroup;
 			children = (
+				1AA7F76328E25EDE009F09C7 /* Exercises.swift */,
 				1A47CCAD28DE1F3F0040AAC1 /* sandBoxApp.swift */,
 				1A47CCAF28DE1F3F0040AAC1 /* ContentView.swift */,
 				1A47CCB128DE1F410040AAC1 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A47CCB028DE1F3F0040AAC1 /* ContentView.swift in Sources */,
+				1AA7F76428E25EDE009F09C7 /* Exercises.swift in Sources */,
 				1A47CCAE28DE1F3F0040AAC1 /* sandBoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
