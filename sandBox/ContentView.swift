@@ -3,7 +3,7 @@ import SwiftUI
 
 
 
-struct ContentView: View {
+struct ContentView: View { 
     @State var isPresented:Bool = false
     
     var body: some View {
@@ -23,7 +23,7 @@ struct ContentView: View {
                                             print("Button Tapped")
                                             }),
                   secondaryButton: .destructive(Text("cancelar")))
-            })*/
+            })
         .actionSheet(isPresented:$isPresented, content:{
             ActionSheet(title: Text("Aprende Swift UI"),
             message: Text("Elige la opcion que desees:"),
@@ -33,7 +33,7 @@ struct ContentView: View {
                                   .default(Text("Xcode")),
                                   .destructive(Text("Cancelar"))
                         ])
-        })
+        })*/
         
     }
 }
