@@ -1,43 +1,29 @@
 
 import SwiftUI
 
-struct Device{
-    let title:String
-    let imageName:String
-}
 
-let home = [
-    Device(title: "Laptop",imageName:"laptopcomputer"),
-    Device(title: "mac mini",imageName:"macmini"),
-    Device(title: "Mac Pro",imageName:"macpro.gen3"),
-    Device(title: "Displays",imageName:"display.2"),
-    Device(title: "Apple tv",imageName:"appletv")
-]
-
-let work = [
-    Device(title: "Iphone",imageName:"iphone"),
-    Device(title: "Ipad",imageName:"ipad"),
-    Device(title: "Airpods",imageName:"airpods"),
-    Device(title: "AppleWatch",imageName:"applewatch")
-]
 
 struct ContentView: View {
+    @State var isPresented:Bool = false
+    
     var body: some View {
-     
-        List{
-            Section(header: Text("HOME")){
-                ForEach(home,id: \.title) { device in
-                    Label(device.title,systemImage: device.imageName)
-                }
+        VStack{
+            Text("Suscribete a Swift beta")
+                .padding()
+            Button("Aceptar"){
+                isPresented = true
             }
             
-            Section(header: Text("WORK")){
-                ForEach(work,id: \.title) { device in
-                    Label(device.title,systemImage: device.imageName)
-                }
-            }
-        }.listStyle(InsetGroupedListStyle())
-        
+        }
+        .alert(isPresented: $isPresented,content:{
+            Alert(title: Text("Suscribete a Swift Beta"),
+                  message: Text("Cada semana un nuevo video"),
+                  primaryButton:.default(Text("Aceptar"),
+                                         action:{
+                                            print("Button Tapped")
+                                            }),
+                  secondaryButton: .destructive(Text("cancelar")))
+            })
     }
 }
 
