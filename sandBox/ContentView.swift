@@ -15,7 +15,7 @@ struct ContentView: View {
             }
             
         }
-        .alert(isPresented: $isPresented,content:{
+        /*.alert(isPresented: $isPresented,content:{
             Alert(title: Text("Suscribete a Swift Beta"),
                   message: Text("Cada semana un nuevo video"),
                   primaryButton:.default(Text("Aceptar"),
@@ -23,7 +23,18 @@ struct ContentView: View {
                                             print("Button Tapped")
                                             }),
                   secondaryButton: .destructive(Text("cancelar")))
-            })
+            })*/
+        .actionSheet(isPresented:$isPresented, content:{
+            ActionSheet(title: Text("Aprende Swift UI"),
+            message: Text("Elige la opcion que desees:"),
+                        buttons: [.default(Text("Swift UI"),
+                                           action: {print("aprende swift ui")
+                                }),
+                                  .default(Text("Xcode")),
+                                  .destructive(Text("Cancelar"))
+                        ])
+        })
+        
     }
 }
 
