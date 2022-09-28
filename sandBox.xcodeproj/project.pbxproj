@@ -16,6 +16,7 @@
 		1A47CCCB28DE1F410040AAC1 /* sandBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47CCCA28DE1F410040AAC1 /* sandBoxUITestsLaunchTests.swift */; };
 		1A7FF4EC28E4E0EF00C60D5A /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FF4EB28E4E0EF00C60D5A /* View2.swift */; };
 		1A7FF4EE28E4E1FA00C60D5A /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FF4ED28E4E1FA00C60D5A /* View3.swift */; };
+		1A7FF4F228E4FBD600C60D5A /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7FF4F128E4FBD600C60D5A /* Principal.swift */; };
 		1A83E88F28E35D5900ABD064 /* Exercises2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A83E88E28E35D5900ABD064 /* Exercises2.swift */; };
 		1AA7F76428E25EDE009F09C7 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7F76328E25EDE009F09C7 /* Exercises.swift */; };
 		1AB4396A28E4A872003410FB /* StateObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4396928E4A872003410FB /* StateObservedObject.swift */; };
@@ -51,6 +52,7 @@
 		1A47CCCA28DE1F410040AAC1 /* sandBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1A7FF4EB28E4E0EF00C60D5A /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		1A7FF4ED28E4E1FA00C60D5A /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		1A7FF4F128E4FBD600C60D5A /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 		1A83E88E28E35D5900ABD064 /* Exercises2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises2.swift; sourceTree = "<group>"; };
 		1AA7F76328E25EDE009F09C7 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		1AB4396928E4A872003410FB /* StateObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObservedObject.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				1AB4396928E4A872003410FB /* StateObservedObject.swift */,
 				1A83E88E28E35D5900ABD064 /* Exercises2.swift */,
 				1AA7F76328E25EDE009F09C7 /* Exercises.swift */,
+				1A7FF4F128E4FBD600C60D5A /* Principal.swift */,
 				1A47CCAD28DE1F3F0040AAC1 /* sandBoxApp.swift */,
 				1A47CCAF28DE1F3F0040AAC1 /* View1.swift */,
 				1A7FF4EB28E4E0EF00C60D5A /* View2.swift */,
@@ -276,6 +279,7 @@
 				1A7FF4EC28E4E0EF00C60D5A /* View2.swift in Sources */,
 				1A7FF4EE28E4E1FA00C60D5A /* View3.swift in Sources */,
 				1A47CCB028DE1F3F0040AAC1 /* View1.swift in Sources */,
+				1A7FF4F228E4FBD600C60D5A /* Principal.swift in Sources */,
 				1AA7F76428E25EDE009F09C7 /* Exercises.swift in Sources */,
 				1A47CCAE28DE1F3F0040AAC1 /* sandBoxApp.swift in Sources */,
 				1AB4396A28E4A872003410FB /* StateObservedObject.swift in Sources */,
