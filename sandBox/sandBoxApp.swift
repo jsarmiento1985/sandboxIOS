@@ -11,7 +11,14 @@ import SwiftUI
 struct sandBoxApp: App {
     var body: some Scene {
         WindowGroup {
-            principal()
+            SwipeActions()
         }
+    }
+}
+
+
+struct principal_Previews: PreviewProvider {
+    static var previews: some View {
+        SwipeActions()
     }
 }

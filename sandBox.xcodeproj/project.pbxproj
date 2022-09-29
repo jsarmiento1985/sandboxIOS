@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3516FF28E6091B00F96C3F /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3516FE28E6091B00F96C3F /* SwipeActions.swift */; };
 		1A47CCAE28DE1F3F0040AAC1 /* sandBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47CCAD28DE1F3F0040AAC1 /* sandBoxApp.swift */; };
 		1A47CCB028DE1F3F0040AAC1 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47CCAF28DE1F3F0040AAC1 /* View1.swift */; };
 		1A47CCB228DE1F410040AAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A47CCB128DE1F410040AAC1 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A3516FE28E6091B00F96C3F /* SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActions.swift; sourceTree = "<group>"; };
 		1A47CCAA28DE1F3F0040AAC1 /* sandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A47CCAD28DE1F3F0040AAC1 /* sandBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandBoxApp.swift; sourceTree = "<group>"; };
 		1A47CCAF28DE1F3F0040AAC1 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		1A47CCAC28DE1F3F0040AAC1 /* sandBox */ = {
 			isa = PBXGroup;
 			children = (
+				1A3516FE28E6091B00F96C3F /* SwipeActions.swift */,
 				1AB4396928E4A872003410FB /* StateObservedObject.swift */,
 				1A83E88E28E35D5900ABD064 /* Exercises2.swift */,
 				1AA7F76328E25EDE009F09C7 /* Exercises.swift */,
@@ -280,6 +283,7 @@
 				1A7FF4EE28E4E1FA00C60D5A /* View3.swift in Sources */,
 				1A47CCB028DE1F3F0040AAC1 /* View1.swift in Sources */,
 				1A7FF4F228E4FBD600C60D5A /* Principal.swift in Sources */,
+				1A3516FF28E6091B00F96C3F /* SwipeActions.swift in Sources */,
 				1AA7F76428E25EDE009F09C7 /* Exercises.swift in Sources */,
 				1A47CCAE28DE1F3F0040AAC1 /* sandBoxApp.swift in Sources */,
 				1AB4396A28E4A872003410FB /* StateObservedObject.swift in Sources */,
