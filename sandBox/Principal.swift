@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct principal: View {
     @State var name:String = ""
     @AppStorage ("appStorageName") var appStorageName:String = ""
@@ -20,7 +19,7 @@ struct principal: View {
                     appStorageName = name
                 }
                 .padding()
-               Spacer()
+                Spacer()
                 
             }
             HStack{
@@ -29,14 +28,13 @@ struct principal: View {
                     print(UserDefaults.standard.string(forKey: "appStorageName"))
                 }
                 .padding()
-               Spacer()
+                Spacer()
                 
             }
-        }
-        .onAppear{
+        }        .onAppear{
             name = appStorageName
         }
-  
+        
     }
 }
 
